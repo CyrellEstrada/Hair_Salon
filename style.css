@@ -1,0 +1,155 @@
+header{
+background-color: #2e2e2e;
+height: 10rem;
+width: auto;
+display: inline-block;
+}
+
+body{
+    background-color: black;
+}
+
+h1{
+    border: white 2px solid;
+    background-color: #171a26;
+    border-radius: 10pt;
+    color: white;
+    text-align: center;
+    padding: 5pt;
+    margin: 1rem;
+    width: 100pt;
+}  
+
+nav{
+    display: flex;
+    justify-content: space-evenly;
+    margin: 0rem 1rem 0rem 10rem;
+    padding: 0rem 0rem 0rem 0rem;
+}
+
+
+nav > a{
+    /* display: flex;
+    justify-content: flex-end; */
+    margin-top: 0pt;
+    margin-left: 2rem;
+    height: 10%;
+    width: auto;
+    color: white;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 20px;
+    border-radius: 25px;
+    background: transparent;
+    padding: 20px;
+    text-align: center;
+    border: 2px solid black;
+}
+
+#Hair1 {
+    display: flex;
+    margin: 20pt;
+}
+
+.Best_Hairstylists{
+    display: inline-block;
+    color: white;
+    width: 250pt;
+    margin: 20pt;
+    text-align: center;
+}
+
+.Feat_Hairstyle{
+    display: inline-block;
+    color: white;
+    width: 250pt;
+    margin: 20pt;
+    text-align: center;
+}
+
+.Hair_Care{
+    display: inline-block;
+    color: white;
+    width: 250pt;
+    margin: 20pt;
+    text-align: center;
+}
+
+.Hair_You{
+    display: inline-block;
+    color: white;
+    width: 250pt;
+    margin: 20pt;
+    text-align: center;
+}
+.Featured{
+    display: flex;
+    color: white;
+}
+
+.Featured_Text{
+    margin: 3rem 0rem 0rem 1rem;
+    color: white;
+    width: auto;
+    
+}
+.Hairstlye{
+    display: inline-block;
+    color: white;
+    width: auto;
+    text-align: left;
+}
+
+/* Medium and up (Tablets) */
+@media (max-width: 768px) {
+    body{
+        background-color: brown;
+    }
+    
+    header{
+        height: 10rem;
+    }
+    
+    nav{
+        display: flex;
+        justify-content: space-evenly;
+        margin: 0rem 1rem 0rem 0rem;
+    }
+    
+    nav > a{
+        width: auto;
+    }
+    
+    /* Small and up (Landscape Phones) */
+    @media (max-width: 576px) {
+        body{
+            background-color:chocolate;
+            display: grid;
+            grid-template-columns: 1fr;
+        }
+        
+        nav{
+            display: flex;
+            justify-content: space-evenly;
+            margin: 0rem 1rem 0rem 0rem;
+        }
+        
+        nav > a{
+            font-size: 1rem;
+            margin: 0rem 0rem 0rem 1rem;
+            padding: 1rem 1rem 1rem 1rem;
+        }
+        
+        .Featured{
+            display: block;
+        }
+        
+        .Featured_Text{
+            width: auto;
+        }
+        
+        .Hairstlye{
+            width: auto;
+        }
+    }
+        
+  }
